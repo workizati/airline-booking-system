@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Confirmation | Malaysia Airlines</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Malaysia_Airlines_logo.svg/1200px-Malaysia_Airlines_logo.svg.png" alt="Malaysia Airlines">
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="#">My Bookings</a>
+                <a href="#">Flight Status</a>
+                <a href="#">Destinations</a>
+            </nav>
+        </div>
+        <div class="user-actions">
+            <a href="#" id="login-btn">Sign In</a>
+            <a href="#" id="register-btn">Enroll</a>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="booking-confirmation">
+            <div class="confirmation-header">
+                <div class="confirmation-icon">
+                    <i class="fas fa-check-circle"></i>
+                </div>
+                <h1>Your booking is confirmed!</h1>
+                <p>We've sent your booking details to your email.</p>
+            </div>
+            
+            <div class="confirmation-details">
+                <div class="detail-card">
+                    <h2>Booking Reference</h2>
+                    <div class="reference-number">MH12345678</div>
+                    <p>Please keep this number for your records</p>
+                </div>
+                
+                <div class="detail-card">
+                    <h2>Flight Details</h2>
+                    <div class="flight-summary">
+                        <div class="flight-segment">
+                            <div class="segment-header">
+                                <span class="flight-number">MH123</span>
+                                <span class="flight-date">15 Dec 2023</span>
+                            </div>
+                            <div class="segment-details">
+                                <div class="airport">
+                                    <span class="time">08:30</span>
+                                    <span class="code">KUL</span>
+                                    <span class="city">Kuala Lumpur</span>
+                                </div>
+                                <div class="flight-duration">
+                                    <span>2h 30m</span>
+                                    <div class="flight-line"></div>
+                                </div>
+                                <div class="airport">
+                                    <span class="time">11:00</span>
+                                    <span class="code">SIN</span>
+                                    <span class="city">Singapore</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="detail-card">
+                    <h2>Passenger Details</h2>
+                    <div class="passenger-details">
+                        <div class="passenger">
+                            <span class="name">John Doe</span>
+                            <span class="type">Adult</span>
+                        </div>
+                        <div class="passenger-info">
+                            <div class="info-item">
+                                <span>Seat</span>
+                                <span>12A (Business Class)</span>
+                            </div>
+                            <div class="info-item">
+                                <span>Baggage</span>
+                                <span>2 x 32kg</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="detail-card">
+                    <h2>Payment Details</h2>
+                    <div class="payment-details">
+                        <div class="payment-item">
+                            <span>Payment Method</span>
+                            <span>FPX Online Banking (Maybank)</span>
+                        </div>
+                        <div class="payment-item">
+                            <span>Amount Paid</span>
+                            <span class="amount">RM1,200.00</span>
+                        </div>
+                        <div class="payment-item">
+                            <span>Payment Date</span>
+                            <span>14 Dec 2023, 10:15 AM</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="confirmation-actions">
+                <button class="primary-btn" onclick="window.print()">Print Itinerary</button>
+                <a href="index.html" class="secondary-btn">Back to Home</a>
+            </div>
+            
+            <div class="confirmation-note">
+                <h3>Important Information</h3>
+                <ul>
+                    <li>Check-in opens 48 hours before departure</li>
+                    <li>Please arrive at the airport at least 3 hours before international flights</li>
+                    <li>Baggage allowance may vary by fare type</li>
+                    <li>For any changes, please contact our customer service</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>About Malaysia Airlines</h4>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Press Center</a></li>
+                    <li><a href="#">Sustainability</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Help</h4>
+                <ul>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">FAQs</a></li>
+                    <li><a href="#">Baggage Information</a></li>
+                    <li><a href="#">Travel Requirements</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Services</h4>
+                <ul>
+                    <li><a href="#">Check-In</a></li>
+                    <li><a href="#">Flight Status</a></li>
+                    <li><a href="#">Manage Booking</a></li>
+                    <li><a href="#">Special Assistance</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Connect With Us</h4>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+                <div class="app-download">
+                    <p>Download Our App</p>
+                    <div class="app-buttons">
+                        <a href="#"><img src="https://via.placeholder.com/120x40?text=App+Store" alt="App Store"></a>
+                        <a href="#"><img src="https://via.placeholder.com/120x40?text=Google+Play" alt="Google Play"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 Malaysia Airlines. All Rights Reserved.</p>
+            <div class="legal-links">
+                <a href="#">Terms & Conditions</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Cookie Policy</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Login Modal -->
+    <div id="login-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Sign In to Your Account</h2>
+            <form id="login-form">
+                <div class="form-group">
+                    <label for="login-email">Email Address</label>
+                    <input type="email" id="login-email" required>
+                </div>
+                <div class="form-group">
+                    <label for="login-password">Password</label>
+                    <input type="password" id="login-password" required>
+                </div>
+                <div class="form-row">
+                    <label class="checkbox-container">
+                        <input type="checkbox" id="remember-me">
+                        <span class="checkbox-checkmark"></span>
+                        Remember me
+                    </label>
+                    <a href="#" class="forgot-password">Forgot Password?</a>
+                </div>
+                <button type="submit" class="primary-btn">Sign In</button>
+            </form>
+            <div class="social-login">
+                <p>Or sign in with</p>
+                <div class="social-buttons">
+                    <button class="social-btn google"><i class="fab fa-google"></i> Google</button>
+                    <button class="social-btn facebook"><i class="fab fa-facebook-f"></i> Facebook</button>
+                </div>
+            </div>
+            <div class="switch-form">
+                <p>Don't have an account? <a href="#" id="switch-to-register">Enroll now</a></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Register Modal -->
+    <div id="register-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Create Your Account</h2>
+            <form id="register-form">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="register-firstname">First Name</label>
+                        <input type="text" id="register-firstname" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="register-lastname">Last Name</label>
+                        <input type="text" id="register-lastname" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="register-email">Email Address</label>
+                    <input type="email" id="register-email" required>
+                </div>
+                <div class="form-group">
+                    <label for="register-password">Password</label>
+                    <input type="password" id="register-password" required>
+                    <small>Minimum 8 characters with at least 1 number and 1 special character</small>
+                </div>
+                <div class="form-group">
+                    <label for="register-confirm-password">Confirm Password</label>
+                    <input type="password" id="register-confirm-password" required>
+                </div>
+                <div class="form-group">
+                    <label for="register-phone">Phone Number</label>
+                    <input type="tel" id="register-phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="register-country">Country of Residence</label>
+                    <select id="register-country" required>
+                        <option value="">Select Country</option>
+                        <option value="MY">Malaysia</option>
+                        <option value="SG">Singapore</option>
+                        <option value="ID">Indonesia</option>
+                        <option value="TH">Thailand</option>
+                        <option value="PH">Philippines</option>
+                        <option value="VN">Vietnam</option>
+                        <option value="US">United States</option>
+                        <option value="UK">United Kingdom</option>
+                        <option value="AU">Australia</option>
+                    </select>
+                </div>
+                <div class="form-group checkbox-group">
+                    <label class="checkbox-container">
+                        <input type="checkbox" id="register-newsletter">
+                        <span class="checkbox-checkmark"></span>
+                        Subscribe to newsletter and promotions
+                    </label>
+                </div>
+                <div class="form-group checkbox-group">
+                    <label class="checkbox-container">
+                        <input type="checkbox" id="register-terms" required>
+                        <span class="checkbox-checkmark"></span>
+                        I agree to the <a href="#">Terms & Conditions</a> and <a href="#">Privacy Policy</a>
+                    </label>
+                </div>
+                <button type="submit" class="primary-btn">Create Account</button>
+            </form>
+            <div class="switch-form">
+                <p>Already have an account? <a href="#" id="switch-to-login">Sign in</a></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
